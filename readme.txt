@@ -1,4 +1,4 @@
-=== Callout &amp; Alert Box ===
+=== Callout & Alert Box Block ===
 Contributors:      Moshtafizur
 Tags:              block
 Tested up to:      7.0

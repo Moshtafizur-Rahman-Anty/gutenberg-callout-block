@@ -3,7 +3,7 @@
 	"apiVersion": 3,
 	"name": "craftblocks/callout-and-alert-box",
 	"version": "1.0.0",
-	"title": "Callout & Alert Box",
+	"title": "Callout & Alert Box Block",
 	"category": "text",
 	"icon": "megaphone",
 	"description": "A semantic, beautifully styled callout, alert, and notice box block for gutenberg",
