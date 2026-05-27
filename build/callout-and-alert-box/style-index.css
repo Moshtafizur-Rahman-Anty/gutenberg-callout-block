@@ -8,25 +8,25 @@
  * Replace them with your own styles or remove the file completely.
  */
 /* Base Block Style */
-.wp-block-craftblocks_callout_and_alert_box {
-  padding: 1.5 rem;
+.wp-block-craftblocks-callout-and-alert-box {
+  padding: 1.5rem;
   border-radius: 8px;
   background-color: #e7f5ff;
   border-left: 5px solid #228be6;
 }
-.wp-block-craftblocks_callout_and_alert_box p {
+.wp-block-craftblocks-callout-and-alert-box p {
   margin: 0;
-  font-size: 1.1 rem;
+  font-size: 1.1rem;
 }
-.wp-block-craftblocks_callout_and_alert_box.is-style-info {
+.wp-block-craftblocks-callout-and-alert-box.is-style-info {
   background-color: #e7f5ff;
   border-left-color: #228be6;
 }
-.wp-block-craftblocks_callout_and_alert_box.is-style-success {
+.wp-block-craftblocks-callout-and-alert-box.is-style-success {
   background-color: #ebfbee;
   border-left-color: #40c057;
 }
-.wp-block-craftblocks_callout_and_alert_box.is-style-warning {
+.wp-block-craftblocks-callout-and-alert-box.is-style-warning {
   background-color: #fff9db;
   border-left-color: #fab005;
 }
