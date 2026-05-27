@@ -56,7 +56,7 @@ __webpack_require__.dn(__WEBPACK_DEFAULT_EXPORT__);
           content: newValue
         });
       },
-      placeholder: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_0__.__)("Type your callout message here", "callout-and-alert-box")
+      placeholder: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_0__.__)("Type your callout message here", "callout-and-alert-box-block")
     })
   });
 }
@@ -169,7 +169,7 @@ module.exports = window["wp"]["i18n"];
   \**********************************************/
 (module) {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"craftblocks/callout-and-alert-box","version":"1.0.0","title":"Callout & Alert Box Block","category":"text","icon":"megaphone","description":"A semantic, beautifully styled callout, alert, and notice box block for gutenberg","example":{},"supports":{"html":false},"attributes":{"content":{"type":"string","default":"Here is the notice"}},"styles":[{"name":"info","label":"Info","isDefault":true},{"name":"success","label":"Success"},{"name":"warning","label":"Warning"}],"textdomain":"callout-and-alert-box","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php","viewScript":"file:./view.js"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"craftblocks/callout-and-alert-box-block","version":"1.0.0","title":"Callout & Alert Box Block","category":"text","icon":"megaphone","description":"A semantic, beautifully styled callout, alert, and notice box block for gutenberg","example":{},"supports":{"html":false},"attributes":{"content":{"type":"string","default":"Here is the notice"}},"styles":[{"name":"info","label":"Info","isDefault":true},{"name":"success","label":"Success"},{"name":"warning","label":"Warning"}],"textdomain":"callout-and-alert-box","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php","viewScript":"file:./view.js"}');
 
 /***/ }
 

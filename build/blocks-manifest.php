@@ -4,7 +4,7 @@ return array(
 	'callout-and-alert-box' => array(
 		'$schema' => 'https://schemas.wp.org/trunk/block.json',
 		'apiVersion' => 3,
-		'name' => 'craftblocks/callout-and-alert-box',
+		'name' => 'craftblocks/callout-and-alert-box-block',
 		'version' => '1.0.0',
 		'title' => 'Callout & Alert Box Block',
 		'category' => 'text',

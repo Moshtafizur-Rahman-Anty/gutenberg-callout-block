@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Callout & Alert Box Block
+ * Plugin Name:       Callout and Alert Box Block
  * Plugin URI:        https://github.com/Moshtafizur-Rahman-Anty/gutenberg-callout-block
  * Description:       A semantic, beautifully styled callout, alert, and notice box block for gutenberg
  * Version:           1.0.0
@@ -9,7 +9,7 @@
  * Author:            Moshtafizur
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:       callout-and-alert-box
+ * Text Domain:       callout-and-alert-box-block
  * Domain Path:       /language
  *
  * @package Craftblocks

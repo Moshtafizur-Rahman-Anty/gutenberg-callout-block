@@ -33,7 +33,7 @@ export default function ({ attributes, setAttributes }) {
 				}}
 				placeholder={__(
 					"Type your callout message here",
-					"callout-and-alert-box"
+					"callout-and-alert-box-block"
 				)}
 			/>
 		</div>
