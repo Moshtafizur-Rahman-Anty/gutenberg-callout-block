@@ -36,6 +36,6 @@ When building this modern Gutenberg block, I avoided writing bloated custom Reac
 
 ### 👨‍💻 About the Developer
 **Moshtafizur Rahman**  
-Senior WordPress & WooCommerce Developer  
+WordPress & WooCommerce Developer  
 
 🌐 [View my full portfolio](YOUR_PORTFOLIO_LINK_HERE) | 💼 [Upwork Profile](https://upwotk.com/fl/moshtafizur) | 🔗 [LinkedIn](https://linkedin.com/in/moshtafizur)
