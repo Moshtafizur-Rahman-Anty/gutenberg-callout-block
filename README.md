@@ -35,9 +35,6 @@ When building this modern Gutenberg block, I avoided writing bloated custom Reac
 ---
 
 ### 👨‍💻 About the Developer
-
-*This repository is part of my 2026 Advanced WordPress Development Portfolio.*
-
 **Moshtafizur Rahman**  
 Senior WordPress & WooCommerce Developer  
 
