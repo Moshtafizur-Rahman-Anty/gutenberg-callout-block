@@ -1,41 +1,24 @@
-/**
- * Retrieves the translation of text.
- *
- * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-i18n/
- */
-import { __ } from '@wordpress/i18n';
+import {__} from "@wordpress/i18n";
+import { useBlockProps, RichText } from "@wordpress/block-editor";
 
-/**
- * React hook that is used to mark the block wrapper element.
- * It provides all the necessary props like the class name.
- *
- * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#useblockprops
- */
-import { useBlockProps } from '@wordpress/block-editor';
 
-/**
- * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
- * Those files can contain any CSS code that gets applied to the editor.
- *
- * @see https://www.npmjs.com/package/@wordpress/scripts#using-css
- */
-import './editor.scss';
+export default function ({attributes, setAttributes}) {
+		const {content} = attributes;
+		const blockProps = useBlockProps();
 
-/**
- * The edit function describes the structure of your block in the context of the
- * editor. This represents what the editor will render when the block is used.
- *
- * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-edit-save/#edit
- *
- * @return {Element} Element to render.
- */
-export default function Edit() {
-	return (
-		<p { ...useBlockProps() }>
-			{ __(
-				'Callout &amp; Alert Box – hello from the editor!',
-				'callout-and-alert-box'
-			) }
-		</p>
-	);
+		return (
+			<div {...blockProps}>
+
+				<RichText tagName="p" value={content}
+
+				onChange={(newValue) => {
+					setAttributes({content: newValue});
+				}}
+
+				placeholder = {__("Type your callout message here", "callout-and-alert-box")}
+				
+				/>
+
+			</div>
+		);
 }
