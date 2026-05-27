@@ -16,20 +16,20 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // Get the content. default to empty string
-$content = isset($attributes['content']) ? $attributes['content'] : '';
+$craftblocks_content = isset($attributes['content']) ? $attributes['content'] : '';
 
 // Build the wrapper with accessibility tags
-$wrapper_attributes = get_block_wrapper_attributes( array (
+$craftblock_wrapper = get_block_wrapper_attributes( array (
 	'role' => "note",
 	'aria-label' => 'Styled Callout'
 ) );
 
 ?>
 
-<div <?php echo $wrapper_attributes; ?>>
+<div <?php echo $craftblock_wrapper; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>>
 
 	<p>
-		<?php echo wp_kses_post($content); ?>
+		<?php echo wp_kses_post($craftblocks_content); ?>
 	</p>
 
 </div>

@@ -19,8 +19,24 @@ __webpack_require__.dn(__WEBPACK_DEFAULT_EXPORT__);
 /* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__);
+/**
+ * WordPress dependencies
+ */
 
 
+
+/**
+ * Edit component for the block.
+ *
+ * Handles block content editing inside the Gutenberg editor.
+ *
+ * @param {Object}   props                Component props.
+ * @param {Object}   props.attributes     Block attributes.
+ * @param {string}   props.attributes.content Content text value.
+ * @param {Function} props.setAttributes  Function to update block attributes.
+ *
+ * @return {JSX.Element} Block editor component.
+ */
 
 /* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__({
   attributes,
@@ -153,7 +169,7 @@ module.exports = window["wp"]["i18n"];
   \**********************************************/
 (module) {
 
-module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"craftblocks/callout-and-alert-box","version":"1.0.0","title":"Callout & Alert Box","category":"text","icon":"megaphone","description":"A semantic, beautifully styled callout, alert, and notice box block for gutenberg","example":{},"supports":{"html":false},"attributes":{"content":{"type":"string","default":"Here is the notice"}},"styles":[{"name":"info","label":"Info","isDefault":true},{"name":"success","label":"Success"},{"name":"warning","label":"Warning"}],"textdomain":"callout-and-alert-box","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php","viewScript":"file:./view.js"}');
+module.exports = /*#__PURE__*/JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":3,"name":"craftblocks/callout-and-alert-box","version":"1.0.0","title":"Callout & Alert Box Block","category":"text","icon":"megaphone","description":"A semantic, beautifully styled callout, alert, and notice box block for gutenberg","example":{},"supports":{"html":false},"attributes":{"content":{"type":"string","default":"Here is the notice"}},"styles":[{"name":"info","label":"Info","isDefault":true},{"name":"success","label":"Success"},{"name":"warning","label":"Warning"}],"textdomain":"callout-and-alert-box","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css","render":"file:./render.php","viewScript":"file:./view.js"}');
 
 /***/ }
 
