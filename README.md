@@ -42,4 +42,4 @@ When building this modern Gutenberg block, I avoided writing bloated custom Reac
 **Moshtafizur Rahman**  
 Senior WordPress & WooCommerce Developer  
 
-🌐 [View my full portfolio](YOUR_PORTFOLIO_LINK_HERE) | 💼 [Upwork Profile](YOUR_UPWORK_LINK_HERE) | 🔗 [LinkedIn](YOUR_LINKEDIN_LINK_HERE)
+🌐 [View my full portfolio](YOUR_PORTFOLIO_LINK_HERE) | 💼 [Upwork Profile](https://upwotk.com/fl/moshtafizur) | 🔗 [LinkedIn](https://linkedin.com/in/moshtafizur)
