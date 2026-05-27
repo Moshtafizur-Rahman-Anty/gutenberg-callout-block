@@ -11,7 +11,6 @@
 When building this modern Gutenberg block, I avoided writing bloated custom React sidebars to ensure enterprise-level performance and security:
 
 * **"Design with Core" (Native UI):** Instead of manually managing React state and `<InspectorControls>`, I utilized the native Block Styles API inside `block.json`. This forces WordPress to generate the color variant UI automatically, drastically reducing JavaScript payload.
-* **Database Optimization:** By explicitly mapping attributes to `"source": "html"` and `"selector": "p"` in `block.json`, I prevented WordPress from saving duplicate JSON strings in the database, keeping the `wp_posts` table lean.
 * **Secure Dynamic Rendering:** The block strictly uses a `render.php` file for frontend output. All user-generated rich text is heavily sanitized using `wp_kses_post()` to prevent malicious script injections while preserving allowed formatting.
 * **Accessibility (EAA-Compliance):** Replaced manual HTML construction with `get_block_wrapper_attributes()`. This allows the block to natively inject `role="note"` and `aria-label` tags, ensuring full compatibility with screen readers.
 * **CSS Cascade Management:** Unified the frontend and backend styling in a single SCSS file to prevent shorthand property conflicts in the editor.
